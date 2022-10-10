@@ -1,0 +1,29 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor *{
+  min-width: 100px;
+  background-image: linear-gradient(to right, #000000, #0d0d0d);
+  border-radius: 3px;
+  box-shadow: 7px 7px 5px inset #222222;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: -3px -3px 2px #222222, 3px 3px 2px #222222;
+  padding: 20px;
+  margin: 2px;
+}
